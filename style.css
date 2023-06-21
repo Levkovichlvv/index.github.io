@@ -97,13 +97,14 @@ text-align: left;
 }
 .profile-card__cnt {
   margin-top: -45px;
-  text-align: center;
   padding: 0 20px;
   padding-bottom: 40px;
   transition: all 0.3s;
 }
 .profile-card__name {
   font-weight: 700;
+  
+    text-align: center;
   font-size: 28px;
   color: #6944ff;
   margin-bottom: 15px;
@@ -113,6 +114,8 @@ text-align: left;
   font-weight: 500;
   color: #324e63;
   margin-top: 15px;
+  
+    text-align: center;
 }
 .profile-card__txt strong {
   font-weight: 700;
@@ -135,6 +138,7 @@ text-align: left;
   flex-wrap: wrap;
   align-items: flex-start;
   margin-top: 35px;
+  text-align: center;
 }
 .profile-card-inf__item {
   padding: 10px 35px;
@@ -142,8 +146,8 @@ text-align: left;
 }
 @media screen and (max-width: 768px) {
   .profile-card-inf__item {
-    padding: 10px 20px;
-    min-width: 120px;
+padding: 10px 13px;
+min-width: 23px;
   }
 }
 .profile-card-inf__title {
