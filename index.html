@@ -16,7 +16,7 @@
       <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537638518/Ba%C5%9Fl%C4%B1ks%C4%B1z-1.jpg" alt="profile card">
     </div>
 
-    <div class="profile-card__cnt js-profile-cnt">
+    <div id="main" class="profile-card__cnt js-profile-cnt">
       <div class="profile-card__name">Левкович Лев</div>
       <div class="profile-card__txt">Баланс <strong class="profile-card-inf__txt">15 800</strong> ₽</div>
       <div class="profile-card-loc">
@@ -50,7 +50,7 @@
       </div>
 
       <div class="profile-card-ctr">
-        <button class="profile-card__button button--blue js-message-btn">Message</button>
+        <button id="bue" class="profile-card__button button--blue js-message-btn">Редактировать</button>
         <button class="profile-card__button button--orange">Follow</button>
       </div>
     </div>
@@ -59,7 +59,16 @@
 
 </div>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script> 
+let tg = window.Telegram.Webapp;
+  let bue = document.getElementById("bue");
+  let order = document.getElementById("order");
 
+  bue. addEventListener("click", () => {
+document.getElemetById("main").style.display = "none";
+    
+  })
+</script>
 
 </body>
 </html>
